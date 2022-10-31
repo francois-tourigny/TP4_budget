@@ -1,5 +1,6 @@
 name: Python package
 on: [push]
+permissions: read-all
 jobs:
         build:
                 runs-on: ubuntu-latest
